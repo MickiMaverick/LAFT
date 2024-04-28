@@ -1,0 +1,58 @@
+button {
+    background-color: #5E17EB;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #AF93E6;
+}
+
+#buttonContainer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#confirmButtonContainer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#addWordBtn,
+#practiceWordBtn {
+    margin-left: 10px; /* Adjust spacing between buttons */
+}
+
+#doneSubmitWrdBtn {
+background: #AF93E6;
+}
+
+#submitWordBtn,
+#doneSubmitWrdBtn {
+    margin-left: 10px; /* Adjust spacing between buttons */
+}
+
+#nextWordBtn {
+position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+}
+
+.speak-button {
+position: absolute;
+    top: 35%; /* Adjust the distance from the bottom as needed */
+    right: 10%; /* Adjust the distance from the right as needed */
+}
+
+#confirmDeleteBtn {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    background: #FF5757;
+}
